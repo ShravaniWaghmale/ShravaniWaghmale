@@ -1,45 +1,131 @@
-# Hi there, I'm **Shravani Waghmale**👋 
+# Full Stack Bus Booking System
 
-## I'm a Student and a developer!!
+A beginner-friendly but fully functional bus booking project.
 
----
-
-- 🌱 I’m Student of Bachelor of Science in Computer Science at Indira college of commerce and science, Pune.
-- 🔭 Check out my <a target="_blank" href="https://www.linkedin.com/in/shravani-waghmale-5090b7284/">LinkedIn Profile</a>
-- ⚡ I love to draw and making crafts
-- 🌱 I'm currently learning **Web Developement**.
+- **Frontend:** React + TypeScript + Vite
+- **Backend:** Node.js + Express
+- **Database:** MongoDB
 
 ---
 
-### Connect with me<img src="https://emoji.slack-edge.com/T0172CCPGUW/party-blob/d7253707fa13e9ee.gif" width="30"/><img src="https://emoji.slack-edge.com/T0172CCPGUW/party-blob/d7253707fa13e9ee.gif" width="30"/><img src="https://emoji.slack-edge.com/T0172CCPGUW/party-blob/d7253707fa13e9ee.gif" width="30"/><img src="https://emoji.slack-edge.com/T0172CCPGUW/party-blob/d7253707fa13e9ee.gif" width="30"/>:
+## Folder Structure
 
-<div align="center">
- <a href="https://www.linkedin.com/in/shravani-waghmale-5090b7284/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="https://github.com/ShravaniWaghmale" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
+```text
+ShravaniWaghmale/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── models/
+│   │   ├── Booking.js
+│   │   └── Bus.js
+│   ├── routes/
+│   │   ├── bookingRoutes.js
+│   │   ├── busRoutes.js
+│   │   └── seedRoutes.js
+│   ├── scripts/
+│   │   └── seedData.js
+│   ├── .env.example
+│   ├── package.json
+│   └── server.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── BookingForm.tsx
+│   │   │   ├── BookingList.tsx
+│   │   │   ├── BusCard.tsx
+│   │   │   └── SearchForm.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   ├── styles.css
+│   │   └── types.ts
+│   ├── index.html
+│   ├── package.json
+│   ├── tsconfig.json
+│   └── vite.config.ts
+├── .gitignore
+└── README.md
+```
 
 ---
 
-### Languages and Tools:
+## Features
 
-<img alt="VS-code" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
-<img alt="HTML" src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>
-<img alt="CSS" src="https://img.icons8.com/color/48/000000/css3.png"/>
-<img alt="JavaScript" src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>
-<img alt="Git" src="https://img.icons8.com/color/48/000000/git.png"/>
-
-
----
-
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ShravaniWaghmale&show_icons=true&locale=en&layout=compact" alt="ShravaniWaghmale" /></p>
+- Search buses by source, destination, and date.
+- View fare, timings, and available seats.
+- Book seats with passenger name and email.
+- Seats reduce automatically after booking.
+- View recent bookings list.
+- Seed sample bus data with one command.
 
 ---
 
-<p display="flex" justify-content="space-between" >&nbsp;<img src="https://github-readme-stats.vercel.app/api?username=ShravaniWaghmale&show_icons=true&locale=en" alt="ShravaniWaghmale" />
+## Step-by-Step Run Instructions
 
-<img  src="https://github-readme-streak-stats.herokuapp.com/?user=ShravaniWaghmale&" alt="ShravaniWaghmale " /></p>
+### 1) Start MongoDB
+
+Make sure MongoDB is running locally on:
+
+```text
+mongodb://127.0.0.1:27017
+```
+
+### 2) Setup backend
+
+```bash
+cd backend
+npm install
+npm run seed
+npm start
+```
+
+Backend runs on: `http://localhost:5000`
+
+### 3) Setup frontend (new terminal)
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on: `http://localhost:5173`
+
+### 4) Use app
+
+1. Open `http://localhost:5173`
+2. Search buses (or click Search directly to list all).
+3. Click **Book Now**.
+4. Enter details and confirm booking.
+5. Booking appears in **Recent Bookings** and available seats get updated.
 
 ---
+
+## API Endpoints
+
+- `GET /api/buses` - List buses (supports query params: `from`, `to`, `date`)
+- `POST /api/bookings` - Create booking
+- `GET /api/bookings` - List all bookings
+- `POST /api/seed` - Seed sample buses
+
+---
+
+## Expected Output
+
+### Backend terminal
+
+- `✅ MongoDB connected successfully`
+- `🚀 Backend server running on http://localhost:5000`
+
+### Frontend terminal
+
+- `VITE v5.x.x ready`
+- `Local: http://localhost:5173/`
+
+### Browser
+
+- Bus list cards visible.
+- Booking form opens when clicking **Book Now**.
+- After booking, success message appears and available seats decrease.
+
