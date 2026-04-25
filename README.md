@@ -1,131 +1,48 @@
-# Full Stack Bus Booking System
+# Hi 👋, I'm Shravani Waghmale
 
-A beginner-friendly but fully functional bus booking project.
-
-- **Frontend:** React + TypeScript + Vite
-- **Backend:** Node.js + Express
-- **Database:** MongoDB
+### 🚀 Aspiring Full Stack Developer | B.Sc Computer Science Student
 
 ---
 
-## Folder Structure
+### 👩‍💻 About Me
 
-```text
-ShravaniWaghmale/
-├── backend/
-│   ├── config/
-│   │   └── db.js
-│   ├── models/
-│   │   ├── Booking.js
-│   │   └── Bus.js
-│   ├── routes/
-│   │   ├── bookingRoutes.js
-│   │   ├── busRoutes.js
-│   │   └── seedRoutes.js
-│   ├── scripts/
-│   │   └── seedData.js
-│   ├── .env.example
-│   ├── package.json
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── BookingForm.tsx
-│   │   │   ├── BookingList.tsx
-│   │   │   ├── BusCard.tsx
-│   │   │   └── SearchForm.tsx
-│   │   ├── services/
-│   │   │   └── api.ts
-│   │   ├── App.tsx
-│   │   ├── main.tsx
-│   │   ├── styles.css
-│   │   └── types.ts
-│   ├── index.html
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── vite.config.ts
-├── .gitignore
-└── README.md
-```
+- 🎓 B.Sc Computer Science student at Indira College of Commerce and Science, Pune  
+- 🌱 Currently learning **Full Stack Web Development**  
+- 💡 Interested in building real-world web applications  
+- 🎨 I enjoy drawing and making crafts  
+- 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/shravani-waghmale-5090b7284/)
 
 ---
 
-## Features
+### 🛠️ Tech Stack
 
-- Search buses by source, destination, and date.
-- View fare, timings, and available seats.
-- Book seats with passenger name and email.
-- Seats reduce automatically after booking.
-- View recent bookings list.
-- Seed sample bus data with one command.
+#### 💻 Languages
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
----
-
-## Step-by-Step Run Instructions
-
-### 1) Start MongoDB
-
-Make sure MongoDB is running locally on:
-
-```text
-mongodb://127.0.0.1:27017
-```
-
-### 2) Setup backend
-
-```bash
-cd backend
-npm install
-npm run seed
-npm start
-```
-
-Backend runs on: `http://localhost:5000`
-
-### 3) Setup frontend (new terminal)
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Frontend runs on: `http://localhost:5173`
-
-### 4) Use app
-
-1. Open `http://localhost:5173`
-2. Search buses (or click Search directly to list all).
-3. Click **Book Now**.
-4. Enter details and confirm booking.
-5. Booking appears in **Recent Bookings** and available seats get updated.
+#### ⚙️ Tools & Technologies
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 ---
 
-## API Endpoints
+### 📊 GitHub Stats
 
-- `GET /api/buses` - List buses (supports query params: `from`, `to`, `date`)
-- `POST /api/bookings` - Create booking
-- `GET /api/bookings` - List all bookings
-- `POST /api/seed` - Seed sample buses
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ShravaniWaghmale&show_icons=true&theme=radical" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ShravaniWaghmale&theme=radical" />
+</p>
 
 ---
 
-## Expected Output
+### 🌐 Top Languages
 
-### Backend terminal
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShravaniWaghmale&layout=compact&theme=radical" />
+</p>
 
-- `✅ MongoDB connected successfully`
-- `🚀 Backend server running on http://localhost:5000`
+---
 
-### Frontend terminal
-
-- `VITE v5.x.x ready`
-- `Local: http://localhost:5173/`
-
-### Browser
-
-- Bus list cards visible.
-- Booking form opens when clicking **Book Now**.
-- After booking, success message appears and available seats decrease.
-
+### ✨ Fun Fact
+I love turning ideas into real projects 🚀
