@@ -6,11 +6,11 @@
 
 ### 👩‍💻 About Me
 
-- 🎓 B.Sc Computer Science student (CGPA: 9.02) at Indira College of Commerce and Science, Pune  
+- 🎓 B.Sc Computer Science student at Indira College of Commerce and Science, Pune  
 - 💻 Passionate about building scalable full-stack web applications  
-- 🌱 Currently working with **MERN Stack (MongoDB, Express, React, Node.js)**  
-- 🎯 Seeking **Software Development Internship / Entry-Level Role**  
-- 🎨 I enjoy drawing and creative design  
+- 🌱 Currently improving my skills in **React, Node.js & scalable system design**  
+- 🎯 Looking for **entry-level software development opportunities** 
+- 🎨 I enjoy drawing and crafting
 
 ---
 
